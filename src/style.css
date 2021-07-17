@@ -1,0 +1,46 @@
+.menu-button {
+    color:aliceblue;
+}
+.title-bar{
+    color: rgb(234, 239, 245);
+    font-size: 50px;
+    font-weight:bold;
+    padding-left: 40px;
+    padding-right:40px;
+    width:100pxpx;
+    
+}
+.title-bar:hover{
+    color:rgb(195, 195, 236)
+}
+.title-currency{
+    padding-right: 40px;
+    padding-left: 40px;
+    color:aliceblue;
+}
+.title-currency:hover{
+    color:rgb(195, 195, 236)
+}
+.title-exchange{
+    padding-left: 40px;
+    padding-right: 40px;
+    color:aliceblue;
+
+}
+.title-exchange:hover{
+    color:rgb(195, 195, 236)
+}
+.title-payment{
+    color:aliceblue;
+    padding-left: 40px;
+    padding-right: 300px;
+}
+.title-payment:hover{
+    color:rgb(195, 195, 236)
+}
+.logo-nav{
+   width:50px;
+   border-radius: 50%; 
+   
+  
+}

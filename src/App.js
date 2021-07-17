@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
+import Navbar from "./Navbar";
 
 
 import axios from 'axios';
@@ -23,7 +24,11 @@ function App() {
   const filteredCoins = coins.filter(coin => coin.name.toLowerCase().includes(search.toLowerCase())
   )
   return (
+    
     <div className="crypto-app">
+      < Navbar/>
+    
+      
       <div className="coin search">
         <h1 className="coin-text"> Search your crypto coin</h1>
         <form>
@@ -32,6 +37,8 @@ function App() {
         </form>
 
       </div>
+    
+     
 
 {filteredCoins.map(coin => {
   return(
@@ -47,8 +54,10 @@ function App() {
  />
   );
 })}
+
      
     </div>
+    
   );
 }
 
